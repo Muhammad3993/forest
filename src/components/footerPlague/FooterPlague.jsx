@@ -36,8 +36,8 @@ const FooterPlague = () => {
                 <div className="footer_links">
                     <NavLink to={"/"} className="footer_link">Главная</NavLink>                    
                     <NavLink to={"/g"} className="footer_link">О нас</NavLink>                    
-                    <NavLink to={"/q"} className="footer_link">Проекты</NavLink>                    
-                    <NavLink to={"/w"} className="footer_link">Услуги</NavLink>                    
+                    <NavLink to={"/project"} className="footer_link">Проекты</NavLink>                    
+                    <NavLink to={"/service"} className="footer_link">Услуги</NavLink>                    
                     <NavLink to={"/e"} className="footer_link">Новости</NavLink>                    
                     <NavLink to={"/r"} className="footer_link">Контакты</NavLink>
                 </div>

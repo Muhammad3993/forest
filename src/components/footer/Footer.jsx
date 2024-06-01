@@ -13,7 +13,7 @@ const Footer = () => {
                     <p className="about_title project_main_title"><span className="header_title_grn">Консультация</span></p>
                     <div className="footer_text">
                         <p className="footer__text">Персональный менеджер свяжется с вами в течение 15 минут</p>
-                        <form>
+                        <form className='form'>
                             <input type="text" placeholder='Имя Фамилия' className='input' />
                             <input type="email" placeholder='E-mail' className='input' />
                             <input type="text" placeholder='Телефон' className='input' />

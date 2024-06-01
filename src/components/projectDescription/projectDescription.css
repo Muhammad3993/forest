@@ -1,0 +1,136 @@
+.projectDesc{
+    width: 100%;
+    background: url("../../assets/images/img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.projectDesc_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectDesc_main_data{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectDesc_main_data_subtitle{
+    width: 35%;
+    color: var(--wht);
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 120px;
+}
+
+.projectDesc_main_data_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.projectDesc_main_data_right_box{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.projectDesc_main_data_right_box_title{
+    width: 100px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--wht);
+}
+
+
+.projectDesc_main_data_right_box_body,
+.projectDesc_main_data_right_box__body{
+    width: 400px;
+    color: var(--wht);
+    font-size: 15px;
+    font-weight: 300;
+    display: flex;
+    gap: 20px;
+}
+
+
+.projectDesc_main_data_right_box__body{
+    justify-content: start;
+}
+
+.projectDesc_main_data_right_box_btn {
+    width: 334px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grn);
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--wht);
+    cursor: pointer;
+}
+
+.projectDesc_main_data_right_box__body img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .projectDesc_main_data{
+        flex-direction: column;
+    }
+
+    .projectDesc_main_data_subtitle{
+        width: 100%;
+        padding: 0;
+    }
+
+    .projectDesc_main_data_right{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .projectDesc_main_data_right_box{
+        gap: 10px;
+    }
+
+    .projectDesc_main_data_right_box_btn{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .projectDesc_main_data_right_box_body{
+        width: max-content;
+    }
+
+    .projectDesc_main_data_right_box:last-child{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 468px) {
+    .projectDesc_main_data_right_box__body{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectDesc_main_data_right_box__body p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}

@@ -1,6 +1,7 @@
 // Components
 import About from '../components/about/About'
 import Counts from '../components/counts/Counts'
+import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
 import Partners from '../components/partners/Partners'
 import Project from '../components/project/Project'
@@ -15,6 +16,7 @@ const Home = () => {
       <Counts/>
       <Project/>
       <Partners/>
+      <Footer />
     </>
   )
 }

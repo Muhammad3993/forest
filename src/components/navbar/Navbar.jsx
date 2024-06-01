@@ -35,8 +35,8 @@ const Navbar = () => {
                 <div className="nav_links">
                   <NavLink to={"/"} className="nav_link">Главная</NavLink>
                   <NavLink to={"/f"} className="nav_link">О нас</NavLink>
-                  <NavLink to={"/d"} className="nav_link">Услуги</NavLink>
-                  <NavLink to={"/s"} className="nav_link">Проекты</NavLink>
+                  <NavLink to={"/service"} className="nav_link">Услуги</NavLink>
+                  <NavLink to={"/project"} className="nav_link">Проекты</NavLink>
                   <NavLink to={"/a"} className="nav_link">Консультация</NavLink>
                   <NavLink to={"/b"} className="nav_link">Контакты</NavLink>
                 </div>

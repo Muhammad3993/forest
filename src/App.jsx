@@ -1,6 +1,11 @@
+// routing
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom"
-import Home from "./pages/Home"
+// layout
 import MainLayout from "./layout/MainLayout"
+// pages
+import Home from "./pages/Home"
+import ProjectPage from "./pages/ProjectPage"
+import ServicesPage from "./pages/ServicesPage"
 
 
 function App() {
@@ -9,6 +14,8 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<MainLayout/>}>
         <Route index element={<Home/>}/>
+        <Route path="project" element={<ProjectPage/>}/>
+        <Route path="service" element={<ServicesPage/>}/>
       </Route>
     )
   )
