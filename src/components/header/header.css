@@ -121,6 +121,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .header_title{
+        font-size: 30px;
+    }
+    
     .header_text{
         width: 100%;
         border: none;
