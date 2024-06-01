@@ -1,0 +1,75 @@
+.footerPlague{
+    width: 100%;
+    background: var(--blck);
+}
+
+.footerPlague_main{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 87px;
+    height: 41px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;object-fit: contain;
+}
+
+.copyRight {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--wht);
+}
+
+.footer_links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer_link{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--wht);
+    transition: .3s;
+}
+
+.footer_link.active{
+    display: none;
+}
+
+.footer_link:hover{
+    color: var(--grn);
+}
+
+.backDrop span{
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--grn);
+    color: var(--wht);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .footerPlague_main{
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer_links{
+        display: none;
+    }
+}

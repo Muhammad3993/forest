@@ -15,7 +15,6 @@ const Home = () => {
       <Counts/>
       <Project/>
       <Partners/>
-      
     </>
   )
 }

@@ -1,0 +1,130 @@
+footer{
+    width: 100%;
+    background-image: url("../../assets/images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.footer_left,
+.footer_right{
+    width: 50%;
+}
+
+.footer_text{
+    width: 369px;
+    padding-left: 120px;
+}
+
+.footer__text{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--wht);
+}
+
+form {
+    width: 100%;
+}
+
+form .input {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid var(--wht);
+    outline: none;
+    background: transparent;
+    color: var(--wht);
+    margin-top: 20px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+form .input:focus-within{
+    border-bottom: 1px solid var(--grn);
+    /* color: var(--grn); */
+}
+
+.footer_check{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.footer_check input{
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--wht);
+    background: var(--black);
+    outline: none;
+}
+
+.footer_check_txt{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--wht);
+}
+
+.footer_btn{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grn);
+    color: var(--wht);
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer_title{
+    color: var(--wht);
+    font-size: 20px;
+    font-weight: 300;
+    opacity: .8;
+}
+
+.footer_body{
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--wht);
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer_title.email{
+    margin-top: 30px;
+}
+
+.footer .nav_socials{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .footer{
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer_left,
+    .footer_right{
+        width: 100%;
+    }
+
+    .footer_text{
+        width: 100%;
+        padding: 0 25px;
+    }
+}

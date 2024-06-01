@@ -33,7 +33,7 @@
     color: var(--wht);
     border-left: 3px solid var(--grn);
     text-transform: uppercase;
-    padding-left: 25px;
+    padding: 20px 0 20px 25px;
 }
 
 .about_number{
