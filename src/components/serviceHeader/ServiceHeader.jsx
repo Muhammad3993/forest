@@ -14,7 +14,7 @@ const ServiceHeader = () => {
                     <div className="serviceHeader_main_box_txt">
                         <div className="projectHeader_text_routes">
                             <p className="projectHeader_text_route">Главная -</p>
-                            <p className="projectHeader_text_route">Проекты</p>
+                            <p className="projectHeader_text_route">Услуги</p>
                         </div>
                         <p className="about_title">Строительство <span className="header_title_grn">домов и коттеджей</span></p>
                         <p className="serviceHeader_main_box_txt_body">на выбор подходяший раззмер и конфигурация дома для разных земельных участок и разного состава семьи ( молодая пара. семья с маленьким ребенком, дом для большой семьи).Мы сможем установить дом где угодно - на участке перед вышем домом, в лесной зоне, на береге реки. Доставку осуществляет наша компания</p>

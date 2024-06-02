@@ -38,7 +38,7 @@ const Navbar = () => {
                   <NavLink to={"/service"} className="nav_link">Услуги</NavLink>
                   <NavLink to={"/project"} className="nav_link">Проекты</NavLink>
                   <NavLink to={"/a"} className="nav_link">Консультация</NavLink>
-                  <NavLink to={"/b"} className="nav_link">Контакты</NavLink>
+                  <NavLink to={"/contact"} className="nav_link">Контакты</NavLink>
                 </div>
                 <div className="nav_socials">
                   <a href="https://www.facebook.com" className="nav_social">
@@ -66,4 +66,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
