@@ -8,7 +8,6 @@ import ProjectPage from "./pages/ProjectPage"
 import ServicesPage from "./pages/ServicesPage"
 import Contact from "./pages/Contact"
 
-
 function App() {
 
   const routes = createBrowserRouter(
