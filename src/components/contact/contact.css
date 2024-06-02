@@ -19,6 +19,7 @@
 .contact_main_map{
     width: 933px;
     height: 575px;
+    color: var(--wht);
 }
 
 .contact_main_map img {

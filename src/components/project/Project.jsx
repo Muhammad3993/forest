@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/navigation';
 // import required modules
-import { Keyboard, Scrollbar, Navigation} from 'swiper/modules';
+import { Keyboard, Scrollbar, Navigation, Pagination} from 'swiper/modules';
 // css
 import "./project.css"
 // img
@@ -46,10 +46,13 @@ const Project = () => {
                                 slidesPerView: 3,
                             },
                           }}
-                        scrollbar={true}
+                        // scrollbar={true}
+                        pagination={{
+                            type: 'progressbar',
+                        }}
                         navigation={true}
                         initialSlide={1}
-                        modules={[Keyboard, Scrollbar, Navigation]}
+                        modules={[Keyboard, Scrollbar, Navigation, Pagination]}
                         className="mySwiper swiper-main"
                     >
                         <SwiperSlide>
